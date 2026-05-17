@@ -584,7 +584,7 @@ export default function App() {
           <p className="gradient-text font-semibold text-lg">Transforming Learning into Smart Learning</p>
           <div className="flex justify-center gap-3 mt-6">
             {[
-              { Icon: Linkedin, href: "https://www.linkedin.com/in/upgarde-ai/", label: "LinkedIn" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/upgrade-ai/", label: "LinkedIn" },
               { Icon: Mail, href: "mailto:info.upgradeai@gmail.com", label: "Email" },
               { Icon: MessageCircle, href: "https://wa.me/916303101478", label: "WhatsApp" },
               { Icon: Instagram, href: "https://www.instagram.com/upgradeai_official/", label: "Instagram" },
