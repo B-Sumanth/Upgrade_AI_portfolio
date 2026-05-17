@@ -49,7 +49,7 @@ const NAV_LINKS = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "services", label: "Services" },
-  { id: "projects", label: "Projects" },
+  { id: "projects", label: "Workflow" },
   { id: "team", label: "Team" },
   { id: "contact", label: "Contact" },
 ];
@@ -264,12 +264,12 @@ export default function App() {
   ];
 
   const team = [
-    { name: "Nettem Sai Sathwik", role: "Team Member", photo: member1 },
-    { name: "Tadaka Sriharshitha", role: "Team Member", photo: member2 },
-    { name: "Sarvu Varshitha", role: "Team Member", photo: member3 },
-    { name: "Bopparaju Sumanth", role: "Team Member", photo: member4 },
-    { name: "Thatiparti Ashritha", role: "Team Member", photo: member5 },
-    { name: "Kamineni Sravani", role: "Team Member", photo: member6 },
+    { name: "Nettem Sai Sathwik", role: "Project Lead", photo: member1 },
+    { name: "Tadaka Sriharshitha", role: "Outreaching Communication Lead", photo: member2 },
+    { name: "Sarvu Varshitha", role: "Content & Social Media Lead", photo: member3 },
+    { name: "Bopparaju Sumanth", role: "Training Coordinator", photo: member4 },
+    { name: "Thatiparti Ashritha", role: "Design & Branding Lead", photo: member5 },
+    { name: "Kamineni Sravani", role: "Technical & Practical Support", photo: member6 },
   ];
 
   const [submitting, setSubmitting] = useState(false);
@@ -327,8 +327,11 @@ export default function App() {
             Transforming Learning into Smart Learning
           </p>
           <p className="mt-6 max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground">
-            Helping teachers and schools adopt AI confidently — with hands-on workshops,
-            real classroom workflows, and zero technical jargon.
+            We help teachers and schools adopt AI with clarity, confidence, and practical guidance through hands-on workshops tailored for modern education.
+            Our approach focuses on real classroom workflows instead of complex technical jargon, making AI easy to understand and apply in everyday teaching.
+            Educators learn how to use AI tools to save time, improve productivity, and create more engaging learning experiences for students.
+            From lesson planning and assessments to communication and classroom management, we provide actionable strategies that schools can implement immediately.
+            Our mission is to make AI accessible, responsible, and truly valuable for every educational institution.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <a href="#services">
@@ -523,10 +526,10 @@ export default function App() {
               <h3 className="text-xl font-bold mb-6">Contact Information</h3>
               <div className="space-y-5">
                 {[
-                  { icon: MapPin, label: "Address", v: "H-46 Sun City Fort-Songadh, Gujarat, 394670, India" },
-                  { icon: Phone, label: "Phone", v: "+91 9016260883", href: "tel:+919016260883" },
-                  { icon: Mail, label: "Email", v: "shreeya.bose19@gmail.com", href: "mailto:shreeya.bose19@gmail.com" },
-                  { icon: Linkedin, label: "LinkedIn", v: "Connect with us", href: "https://www.linkedin.com/" },
+                  { icon: MapPin, label: "Address", v: "Warangal, 506015, India" },
+                  { icon: Phone, label: "Phone", v: "+91 6303101478", href: "tel:+916303101478" },
+                  { icon: Mail, label: "Email", v: "info.upgradeai@gmail.com", href: "mailto:info.upgradeai@gmail.com" },
+                  { icon: Linkedin, label: "LinkedIn", v: "Connect with us", href: "https://www.linkedin.com/in/upgrade-ai/" },
                 ].map((c) => (
                   <a key={c.label} href={c.href ?? "#"} target={c.href?.startsWith("http") ? "_blank" : undefined} rel="noreferrer"
                      className="flex gap-4 items-start group">
@@ -581,11 +584,11 @@ export default function App() {
           <p className="gradient-text font-semibold text-lg">Transforming Learning into Smart Learning</p>
           <div className="flex justify-center gap-3 mt-6">
             {[
-              { Icon: Linkedin, href: "https://www.linkedin.com/", label: "LinkedIn" },
-              { Icon: Mail, href: "mailto:shreeya.bose19@gmail.com", label: "Email" },
-              { Icon: MessageCircle, href: "https://wa.me/918309357523", label: "WhatsApp" },
-              { Icon: Instagram, href: "https://www.instagram.com/", label: "Instagram" },
-              { Icon: Twitter, href: "https://x.com/", label: "X (Twitter)" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/upgarde-ai/", label: "LinkedIn" },
+              { Icon: Mail, href: "mailto:info.upgradeai@gmail.com", label: "Email" },
+              { Icon: MessageCircle, href: "https://wa.me/916303101478", label: "WhatsApp" },
+              { Icon: Instagram, href: "https://www.instagram.com/upgradeai_official/", label: "Instagram" },
+              { Icon: Twitter, href: "https://x.com/Upgarde_Ai", label: "X (Twitter)" },
             ].map(({ Icon, href, label }) => (
               <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label}
                  className="size-11 rounded-full glass grid place-items-center hover:scale-110 hover:shadow-cyan transition-smooth">
