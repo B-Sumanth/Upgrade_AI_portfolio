@@ -50,8 +50,8 @@ const NAV_LINKS = [
   { id: "about", label: "About" },
   { id: "services", label: "Services" },
   { id: "projects", label: "Workflow" },
+    { id: "contact", label: "Contact" },
   { id: "team", label: "Team" },
-  { id: "contact", label: "Contact" },
 ];
 
 function Navbar({ dark, toggle }: { dark: boolean; toggle: () => void }) {
