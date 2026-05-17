@@ -588,7 +588,7 @@ export default function App() {
               { Icon: Mail, href: "mailto:info.upgradeai@gmail.com", label: "Email" },
               { Icon: MessageCircle, href: "https://wa.me/916303101478", label: "WhatsApp" },
               { Icon: Instagram, href: "https://www.instagram.com/upgradeai_official/", label: "Instagram" },
-              { Icon: Twitter, href: "https://x.com/Upgarde_Ai", label: "X (Twitter)" },
+              { Icon: Twitter, href: "https://x.com/Upgrade__Ai", label: "X (Twitter)" },
             ].map(({ Icon, href, label }) => (
               <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label}
                  className="size-11 rounded-full glass grid place-items-center hover:scale-110 hover:shadow-cyan transition-smooth">
