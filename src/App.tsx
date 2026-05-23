@@ -232,7 +232,7 @@ export default function App() {
     { icon: Zap, title: "Productivity Training" },
   ];
 
-  const tools = ["ChatGPT", "Canva AI", "Google Gemini", "Perplexity AI"];
+  const tools = ["ChatGPT", "Canva AI", "Google Gemini", "Perplexity AI", "Notion AI", "Magicschool", "Gamma AI", "Grammarly", "Microsoft Copilot", "NotebookLM", "Adobe Firefly", "Otter.ai"];
 
   const workshop = [
     { t: "Introduction to AI", d: "Foundations of artificial intelligence in plain language." },
