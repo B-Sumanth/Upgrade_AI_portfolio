@@ -232,52 +232,7 @@ export default function App() {
     { icon: Zap, title: "Productivity Training" },
   ];
 
-  const tools = [
-  {
-    name: "ChatGPT",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-  },
-  {
-    name: "Canva AI",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg",
-  },
-  {
-    name: "Google Gemini",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Google-gemini-icon.svg",
-  },
-  {
-    name: "Perplexity AI",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Perplexity_AI_logo.svg",
-  },
-  {
-    name: "NotebookLM",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Google_NotebookLM_logo.svg",
-  },
-  {
-    name: "Microsoft Copilot",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_Copilot_Icon.svg",
-  },
-  {
-    name: "Notion AI",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
-  },
-  {
-    name: "MagicSchool AI",
-    logo: "https://seeklogo.com/images/M/magicschool-ai-logo-7C5D3F9B2A-seeklogo.com.png",
-  },
-  {
-    name: "Otter.ai",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Otter.ai_logo.svg",
-  },
-  {
-    name: "Adobe Firefly",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Adobe_Firefly_Logo.png",
-  },
-  {
-    name: "Gamma AI",
-    logo: "https://seeklogo.com/images/G/gamma-logo-2B0A0F4E50-seeklogo.com.png",
-  },
-];
+  const tools = ["ChatGPT", "Canva AI", "Google Gemini", "Perplexity AI"];
 
   const workshop = [
     { t: "Introduction to AI", d: "Foundations of artificial intelligence in plain language." },
